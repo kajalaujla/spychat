@@ -1,0 +1,4 @@
+name, salutation, age, rating, is_online
+Suresh, Mr., 23, 3.4, True
+Naresh, Mr., 24, 2.4, True
+Mukesh, Mr., 25, 4.4, True

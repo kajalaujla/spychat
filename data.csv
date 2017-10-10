@@ -1,0 +1,13 @@
+import csv
+
+with open('friends.csv'          ,'wb') as friends_data:
+writer = csv.writer(friends_data)
+writer.writerow([spy.name        ,spy.saluation         ,spy.rating,spy.age,spy.is_online])
+
+with open('friends.csv'          ,'rb') as friends_data:
+reader = csv.reader(friends_data)
+
+for row in reader:
+for row in reader:
+spy = Spy(row[0]                 ,row[1]                ,row[2]    ,row[3])
+friends.append(spy)s
